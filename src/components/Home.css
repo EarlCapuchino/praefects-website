@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400|Bebas+Neue:400|Roboto:500');
+.header-ctnr{
+    border: red 5px solid;
+    width: 100%;
+    height: 100%;
+  
+}
+
+.header-details{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border: 3px green solid;
+    padding-top: 5%;
+   
+}
+.title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+    line-height: 1;
+    color: white;
+    border: 2px blue solid;
+    min-width: 100%;
+    font-size: 450%;
+   
+}
+.tag-ctnr{
+    width: 100%;
+    
+    position: absolute;
+    display:flex;
+    justify-content: flex-end;
+}
+.tag{
+    border: yellow 1px solid;
+    background-color: yellow;
+    width: 100px;
+    border-bottom: 0rem;
+}
+
+
+.subtitle{
+    color: white;
+    border: 2px blue solid;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  
+}
+
+.logo-img{
+    border-top: 1rem;
+    width: 15%;
+}
+
+.logo-ctnr{
+    border: 3px orange solid;
+    width: 100%;
+    
+}
+
+.logo-icon{
+    color: white;
+    width: 10%;
+}
+
+.cover-img{
+ 
+    filter: grayscale(0.90);
+    opacity: 5; 
+    
+    width: 100%;
+    min-height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    object-fit: cover; 
+
+}
